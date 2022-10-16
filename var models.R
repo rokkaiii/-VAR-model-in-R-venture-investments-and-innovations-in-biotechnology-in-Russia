@@ -17,7 +17,7 @@ library("tidyverse")
 install.packages("forecast")
 library("forecast")
 
-df  <- readxl::read_xlsx("/Users/irina/Desktop/курсовая/дата.xlsx")
+df  <- readxl::read_xlsx("дата.xlsx")
 
 ##############################ВЛИЯНИЕ ВЕНЧУРНЫХ ИНВЕСТИЦИЙ И ЭКСПОРТА##########################################
 
